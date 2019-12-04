@@ -13,9 +13,9 @@ The trainable_classes.txt file contains encoded labels, which is totally fine fo
 
 `python3 translate_class_descriptions.py`
 
-usage: translate_class_descriptions.py [-h] --trainable_classes_path TRAINABLE_CLASSES
+```usage: translate_class_descriptions.py [-h] --trainable_classes_path TRAINABLE_CLASSES
                                        --class_description_path CLASS_DESCRIPTION
-                                       --trainable_translated_path TRAINABLE_TRANSLATED_PATH
+                                       --trainable_translated_path TRAINABLE_TRANSLATED_PATH```
 
 ??? python3 translate_class_descriptions.py --class_description_path data/classes --trainable_classes_path train/class --trainable_translated_path train/translated
 
